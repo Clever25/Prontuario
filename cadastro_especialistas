@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="resources/img/button_add_01.png">
+  <title>Hospital São Lucas - Sistema Enfermaria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css" />
+  <script src="resources/js/main.js"></script>
+
+</head>
+
+<body>
+
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Hospital São Lucas - Sistema Enfermaria
+        </h1>
+        <h2 class="subtitle">
+          Cadastro de Especialistas
+        </h2>
+      </div>
+    </div>
+   </section>
+
+
+<div class="column is-1 is-offset-2">
+  <div class="container ">
+    <div class="hero-body">
+        <div class="column is-three-quarters">
+          <div class="field">
+		  
+			<h1 class="title">
+				<center>Cadastro de Especialistas</center>
+			</h1>
+		  
+            <label class="label">Registro Médico:</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Nome Completo:</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+
+		  
+		  <div class="field">
+            <div class="control">
+              <strong>Sexo:</strong><br><br>
+              <label class="radio">
+                <input type="radio" name="question">
+                 Feminino
+              </label>
+			  
+              <label class="radio">
+                <input type="radio" name="question">
+                 Masculino
+              </label>
+            </div>
+          </div>
+
+		   <div class="field">
+            <br><label class="label">Telefone de Contato:</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Ex: (31) 3491-8976">
+            </div>
+          </div>
+
+		  
+		  <label class="label">Local de Atendimento:</label>
+		  <div class="control">
+			<div class="select">
+			<select class="is-hovered">
+				<option>Enfermaria - CTI </option>
+				<option>Enfermaria - Bercário</option>
+				<option>Enfermaria - Urgência</option>
+			</select>
+			</div>
+		 </div>
+		 
+		 
+		 <br><label class="label">Especialidade:</label>
+		  <div class="control">
+			<div class="select">
+			<select class="is-hovered">
+				<option>Ortopedia</option>
+				<option>Pediatria</option>
+			</select>
+			</div>
+		 </div>
+		 
+		  <div class="field">
+            <br><label class="label">Orgão da Classe:</label>
+            <div class="control">
+               <input class="input" type="text" placeholder="">
+            </div>
+          </div>
+          
+		  
+		  <div class="field">
+            <label class="label">Número do Orgão da Classe:</label>
+            <div class="control">
+               <input class="input" type="text" placeholder="">
+            </div>
+          </div> 
+		 
+          <div class="field is-grouped">
+            <div class="control">
+              <br><button class="button is-link">Salvar</button>
+            </div>
+            <div class="control">
+              <br><button class="button is-text">Cancelar</button>
+            </div>
+          </div>
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ 
+</body>
+
+<section class="hero is-primary">
+	<footer class="card-footer">
+		<p class="card-footer-item">
+			<span>
+				Dúvidas? Entre em contato com nosso <a href="https://twitter.com/codinghorror/status/506010907021828096">Suporte</a>
+			</span>
+		</p>
+	</footer>
+</section>
+
+</html>
