@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" type="image/x-icon" href="resources/img/button_add_01.png">
-  <title>Leito</title>
+  <title>Hospital São Lucas - Sistema Enfermaria</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css" />
   <script src="resources/js/main.js"></script>
@@ -21,134 +21,78 @@
           Hospital São Lucas - Sistema Enfermaria
         </h1>
         <h2 class="subtitle">
-          Cadastro de Prontuário
+          Cadastro de Leito
         </h2>
       </div>
     </div>
-  </section>
+   </section>
 
 
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-one-third">
-
+<div class="column is-1 is-offset-2">
+  <div class="container ">
+    <div class="hero-body">
+        <div class="column is-three-quarters">
           <div class="field">
-            <center><label class="label is">Cadastro de Prontuário</label>
-
-          </div>
-
-
-          <div class="field">
-            <label class="label">Código do Prontuário:</label>
+		  
+			<h1 class="title">
+				<center>Cadastro de Leito</center>
+			</h1>
+		  
+            <label class="label">Código do Leito:</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Text input" value="123456">
-            </div>
-          </div>
-
-          <div class="field">
-            <label class="label">Registro Médico:</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Text input" value="5879410">
-            </div>
-          </div>
-
-          <div class="field">
-            <label class="label">Nome do Paciente:</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Text input" value="Lucas Silva Gonçalves">
-            </div>
-          </div>
-
-          <div class="field">
-            <label class="label">CPF do Paciente:</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Text input" value="12784097810">
-            </div>
-          </div>
-
-          <div class="field">
-            <label class="label">Descrição da Queixa Principal</label>
-            <div class="control">
-              <textarea class="textarea" placeholder=""></textarea>
-            </div>
-          </div>
-
-
-          <div class="field">
-            <div class="control">
-              <strong>Está em tratamento atualmente?</strong><br>
-              <label class="radio">
-                <input type="radio" name="question">
-                Sim
-              </label>
-              <label class="radio">
-                <input type="radio" name="question">
-                Não
-              </label>
-            </div>
-          </div>
-
-          <div class="field">
-            <div class="control">
-              <strong>Sofre de alguma doença?</strong><br>
-              <label class="radio">
-                <input type="radio" name="question">
-                Sim
-              </label>
-              <label class="radio">
-                <input type="radio" name="question">
-                Não
-              </label>
-              <br><br>Se sim, informe a doença:
               <input class="input" type="text" placeholder="">
-
             </div>
           </div>
 
           <div class="field">
+            <label class="label">Sala</label>
             <div class="control">
-              <strong>Possui alergia a algum medicamento?</strong><br>
-              <label class="radio">
-                <input type="radio" name="question">
-                Sim
-              </label>
-              <label class="radio">
-                <input type="radio" name="question">
-                Não
-              </label>
-              <br><br>Se sim, informe o medicamento:
               <input class="input" type="text" placeholder="">
-
             </div>
           </div>
+
+        
+          <div class="field">
+            <div class="control">
+              <strong>Status:</strong><br>
+              <label class="radio">
+                <input type="radio" name="question">
+                Ocupado
+              </label>
+              <label class="radio">
+                <input type="radio" name="question">
+                Liberado
+              </label>
+            </div>
+          </div>
+
           <div class="field is-grouped">
             <div class="control">
-              <br><button class="button is-link">Avançar</button>
+              <br><button class="button is-link">Salvar</button>
             </div>
             <div class="control">
               <br><button class="button is-text">Cancelar</button>
             </div>
           </div>
+		  
+		  
         </div>
-
       </div>
-
-
     </div>
   </div>
-
-
+ </div>
+ 
 </body>
 
-<footer class="card-footer">
-  <p class="card-footer-item">
-    <span>
-      Dúvidas? Entre em contato com nosso <a href="https://twitter.com/codinghorror/status/506010907021828096">Suporte</a>
-    </span>
-  </p>
 
-</footer>
-</div>
+<section class="hero is-primary">
+	<footer class="card-footer">
+		<p class="card-footer-item">
+			<span>
+				Dúvidas? Entre em contato com nosso <a href="https://twitter.com/codinghorror/status/506010907021828096">Suporte</a>
+			</span>
+		</p>
+	</footer>
+</section>
 
 </html>
