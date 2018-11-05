@@ -21,44 +21,72 @@
           Hospital São Lucas - Sistema Enfermaria
         </h1>
         <h2 class="subtitle">
-          Consulta de Paciente
+          Consulta de Prontuário
         </h2>
       </div>
     </div>
-	
-
-	
+   
      <section class="hero is-primary is-medium">
         <div class="hero-head">
-            <nav class="navbar">
+            <nav class="navbar is-primary">
                 <div class="container">
                     <div class="navbar-brand">                     
       
-                        <figure class="image is-128x128">
+                        <figure class="image is-96x96">
                             <img class="is-rounded" src="resources/img/marca.png">
                         </figure>                        
                     </div>
 
-                    <div id="navbarMenuHeroA" class="navbar-menu">
-                        <div class="navbar-end">
+                    <div id="navbarExampleTransparentExample" class="navbar-menu is-primary">
+						<div class="navbar-end">
+                        
                             <a class="navbar-item" href="index.html">Home </a>
+                             
+							<div class="navbar-item has-dropdown is-hoverable is-primary">
+								<a class="navbar-link">Pacientes</a>
 
-                            <a class="navbar-item is-active" href="consulta_paciente.html">Pacientes</a>
+									<div class="navbar-dropdown has-text-grey">
+										<a class="navbar-item" href="cadastro_paciente.html">Cadastrar Paciente</a>
+										<a class="navbar-item" href="consulta_paciente.html">Consultar Paciente</a>
+									</div>
+							</div>
+							
+							<div class="navbar-item has-dropdown is-primary is-hoverable">
+								<a class="navbar-link">Prontuários</a>
 
-                            <a class="navbar-item" href="consulta_prontuario.html">Prontuários</a>
+									<div class="navbar-dropdown has-text-grey">
+										<a class="navbar-item " href="cadastro_prontuário.html">Cadastrar Prontuário</a>
+										<a class="navbar-item" href="consulta_prontuario.html">Consultar Prontuário</a>
+									</div>
+							</div>
 
-                            <a class="navbar-item" href="consulta_especialistas.html">Especialistas</a>
+							<div class="navbar-item has-dropdown is-hoverable is-primary">
+								<a class="navbar-link">Especialistas</a>
 
-                            <a class="navbar-item" href="consulta_leito.html">Leitos</a>
+									<div class="navbar-dropdown has-text-grey">
+										<a class="navbar-item" href="cadastro_especialistas.html">Cadastrar Especialistas</a>
+										<a class="navbar-item" href="consulta_especialistas.html">Consultar Especialistas</a>
+									</div>
+							</div>
+							
+							<div class="navbar-item has-dropdown is-hoverable is-primary">
+								<a class="navbar-link">Leitos</a>
+
+									<div class="navbar-dropdown has-text-grey">
+										<a class="navbar-item" href="cadastro_leito.html">Cadastrar Leito</a>
+										<a class="navbar-item" href="consulta_leito.html">Consultar Leito</a>
+									</div>
+									
+							</div>
 
                             <a class="navbar-item" href="contato_suporte.html">Ajuda</a>
-
-                        </div>
-                    </div>
+						
+		
                 </div>
             </nav>
         </div>
 </section>
+
 
     <br><footer class="card-footer">
 		<p class="card-footer-item">
@@ -67,39 +95,40 @@
 
 <div class="column is-1 is-offset-2">
   <div class="container ">
-    <div class="hero-body">
         <div class="column is-three-quarters">
           <div class="field">
 		  
 			<h1 class="title">
-				<center>Consulta de Paciente</center>
+				<center>Consulta de Prontuário</center>
 			</h1>
-			
-			<label class="label">
 		  
-            <br><p>Nome Completo: João Carlos da Silva</p>
-						
-			<br><p>Data de Nascimento: 27/07/1992</p>
+		    <label class="label">
 			
-			<br><p>Sexo: Masculino</p>
+            <br><p>Código do Prontuário: 15159087651</p>
 			
-			<br><p>Telefone de Contato: (31)3491-7654</p>
+            <br><p>Registro Médico: 1234567281</p>
 			
-		    <br><p>Plano de Saúde: Unimed </p>
+			<br><p>Nome do Paciente: João Carlos da Silva</p>
 			
-			<br><p>Número da Carteirinha: 1245671828</p>
+			<br><p>CPF do Paciente: 12786587-90</p>
 			
-			<br><p>Endereço: Rua Quinze de Dezembro, 47, São Caetano</p>
+			<br><p>Idade: 23 anos e 30 dias</p>
 			
-			<br><p>Cidade: Belo Horizonte</p>
+			<br><p>Descrição da Queixa Principal: Dores estomacais fortes, febre alta e enjoos constantes.</p>
 			
-			<br><p>Estado: Minas Gerais</p>
+		    <br><p>Está em tratamento atualmente? Não </p>
 			
-			<br><p>E-mail: joao.silva@hotmail.com</p>
+			<br><p>Sofre de alguma doença?: Não</p>
+			
+			<br><p>Doença: Nenhuma</p>
+			
+			<br><p>Possui alergia a algum medicamento? Sim</p>
+			
+			<br><p>Medicamento: Amoxicilina</p>
 			
 			</label>
- 
-		 
+			
+
           <div class="field is-grouped">
             <div class="control">
               <br><br><button class="button is-link">Alterar Cadastro</button>
@@ -109,8 +138,7 @@
             </div>
           </div>
 		  
-		  
-        </div>
+
       </div>
     </div>
   </div>
